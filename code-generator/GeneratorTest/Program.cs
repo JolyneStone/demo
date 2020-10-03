@@ -14,7 +14,7 @@ namespace GeneratorTest
             var generator = new SqlServerCompiler();
             await generator.GenerateAsync(new ModelConfig
             {
-                ConnectionString = "Persist Security Info=False;User ID=sa;Password=sqlzzq;Initial Catalog=test;Data Source=localhost;",
+                ConnectionString = "Persist Security Info=False;User ID=sa;Password=xxx;Initial Catalog=test;Data Source=localhost;",
                 Database = "test",
                 Schema = "dbo",
                 Table = "Test1",
